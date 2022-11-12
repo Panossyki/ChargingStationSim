@@ -1,0 +1,37 @@
+{
+  "name": "charging-stations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon --inspect ./index.js",
+    "start": "nodemon ./index.js",
+    "watch": "nodemon ./index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "model/*.json"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^4.0.4",
+    "express-session": "^1.17.2",
+    "lockfile": "^1.0.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "passport": "^0.4.1",
+    "path": "^0.12.7",
+    "path-posix": "^1.0.0",
+    "pg": "^8.6.0",
+    "process": "^0.11.10",
+    "requests": "^0.3.0",
+    "run": "^1.4.0"
+  }
+}
